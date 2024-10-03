@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----------------- header----------------------->
+    <header>
+      <div class="header-1">
+        <div class="header-button-container">
+          <button class="header-button">
+            <span class="search-icon-container">
+              <img class="zoom-icon" src="assets/svgs/zoom-icon-svg.svg" alt="" />
+            </span>
+            <span class="button-text-container">
+              <span class="header-title">Where to?</span>
+              <span class="header-subtitle-container flex">
+                  <span class="header-sub-title">Anywhere</span>
+                  <span class="header-sub-title">&#x2022;</span>
+                  <span class="header-sub-title">Any week</span>
+                  <span class="header-sub-title">&#x2022;</span>
+                  <span class="header-sub-title">Add guests</span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <!-- ---------------large screen header-------------- -->
+      <div class="header-2 flex">
+          <div class="header-section-1 flex">
+            <div class="left-logo-section">
+              <img id="airbnb-logo" class="flex" src="assets/svgs/airbnb-logo.svg" alt="logo">
+              <img id="airbnb-logo-name" class="flex" src="assets/svgs/airbnb-svg.svg" alt="logo-name">
+            </div>
+            <div class="right-profile-section flex">
+                <div class="section-description-container flex">
+                  <a class="description" href="#"> Airbnb your home</a>
+                  <button class="network-button"><img class="network-icon" src="assets/svgs/network-svg.svg" alt=""></button>
+                </div>
+                <div class="section-profile-container">
+                  <button class="profile-button flex">
+                      <img class="menu-icon" src="assets/svgs/menu-svg.svg" alt="">
+                      <img class="profile-icon" src="assets/svgs/profile-svg.svg" alt="">
+                  </button>
+                </div>
+            </div>
+          </div>
+          <div class="header-section-2 flex">
+            <div class="header2-buttons-container flex">
+              <div class="header2-buttons flex">
+                <div class="header2-button-container">
+                  <button class="header2-button hey">
+                    <span class="header2-button-text">
+                      Stays
+                    </span>
+                  </button>
+                </div>
+                <div class="header2-button-container">
+                  <button class="header2-button">
+                    <span class="header2-button-text">
+                      Experiences
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-section-3 flex">
+            <div class="header-section-3-container"> 
+              <div class="searchbar-container flex">
+                <div class="searchbar flex">
+                  <div class="destinations-section-container flex">
+                    <div class="destination-section flex">
+                      <div class="destination-section-content">
+                        <div class="searchbar-title">Where</div>
+                        <!-- <label for="destinations" class="searchbar-title">Where</label> -->
+                        <input name="destinations" class="searchbar-inputfield" type="search" placeholder="Search destinations">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vertical-line"></div>
+                  <div class="dates-section flex">
+                    <div class="checkin-dates-container flex">
+                      <div class="checkin-dates-content">
+                        <div class="checkin-dates">
+                          <div class="checkin-text">Check in</div>
+                          <div class="adddates-text">Add dates</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="checkin-dates-container flex">
+                      <div class="checkin-dates-content">
+                        <div class="checkin-dates">
+                          <div class="checkin-text">Check out</div>
+                          <div class="adddates-text">Add dates</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vertical-line"></div>
+                  <div class="guests-section-container flex">
+                    <div class="guests-section flex">
+                      <div class="add-guests-section-container">
+                        <div class="add-guests-section">
+                          <div class="who-text">Who</div>
+                          <div class="guests-text">Add guests</div>
+                        </div>
+                      </div>
+                      <div class="search-button-section">
+                          <button class="search-button flex">
+                            <div class="search-icon-container flex">
+                              <img class="search-icon" src="assets/svgs/search-icon-svg.svg" alt="">
+                            </div>
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!---------------- scrolling nav bar  ---------------- -->
+       <nav>
+        <div class="navbar-container">
+            <div class="navbar flex">
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/icons.webp" alt="">
+                  <span class="nav-title">Icons</span>
+                </div>
+                <div class="horizontal-line"></div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/amazing-views.jpg" alt="">
+                  <span class="nav-title">Amazing views</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/amazing-pools.jpg" alt="">
+                  <span class="nav-title">Amazing pools</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/beachfront.jpg" alt="">
+                  <span class="nav-title">Beachfront</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/tinyhomes.jpg" alt="">
+                  <span class="nav-title">Tiny homes</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/containers.jpg" alt="">
+                  <span class="nav-title">Containers</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/farms.jpg" alt="">
+                  <span class="nav-title">Farms</span>
+                </div>
+               </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/omg.jpg" alt="">
+                  <span class="nav-title">OMG!</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/lakefront.jpg" alt="">
+                  <span class="nav-title">Lakefront</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/cabins.jpg" alt="">
+                  <span class="nav-title">Cabins</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/castle.jpg" alt="">
+                  <span class="nav-title">Castles</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/rooms.jpg" alt="">
+                  <span class="nav-title">Rooms</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/luxe.jpg" alt="">
+                  <span class="nav-title">Luxe</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/countryside.jpg" alt="">
+                  <span class="nav-title">Countryside</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/islands.jpg" alt="">
+                  <span class="nav-title">Islands</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/play.jpg" alt="">
+                  <span class="nav-title">Play</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/historical-homes.jpg" alt="">
+                  <span class="nav-title">Historical homes</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/new.jpg" alt="">
+                  <span class="nav-title">New</span>
+                </div>
+              </div>
+              <div class="nav-item-container">
+                <div class="nav-item flex">
+                  <img class="nav-icon" src="assets/nav-icons/treehouses.jpg" alt="">
+                  <span class="nav-title">Treehouse</span>
+                </div>
+              </div>
+            </div>
+            <div class="nav-arrow-button-container ">
+              <div class="white-space"></div>
+              <button class="nav-right-arrow-button flex">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 12px; width: 12px; fill: currentcolor;">
+                  <path d="M5.41.3 4 1.7 10.3 8 4 14.3l1.41 1.4 6.6-6.58c.57-.58.6-1.5.1-2.13l-.1-.11z"></path>
+                </svg>
+              </button>
+            </div>
+        </div>
+      </nav>
+    </header> 
+       <!-- ------------------------- main-section------------------------ -->
+        <main>
+          <section class="section1 grid">
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-01.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Stay in Prince's Purple Rain house</p>
+                <p>Hosted by Wendy and Lisa</p>
+                <p>Coming September</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-2.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Join a living room session with Doja</p>
+                <p>Hosted by Doja Cat</p>
+                <p>Coming October</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-3.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Sleepover at Polly Pocket's Compact</p>
+                <p>Hosted by Polly Pocket</p>
+                <p>Booking closed</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-4.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Playdate at Polly Pocket's Compact</p>
+                <p>Hosted by Wendy and Lisa</p>
+                <p>Booking closed</p>
+              </div>
+            </div>
+          </section>
+          <!-- -------------------------------- -->
+          <section>
+            <div class="section2-heading">
+              <h2 class="heading">Past experiences</h2>
+            </div>
+          </section>
+          <!-- -------------------------------- -->
+          <section class="section2 grid">
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-5.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Go VIP with Kevin Hart</p>
+                <p>Hosted by Kevin Hart</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-6.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Train at the X-Mansion</p>
+                <p>Hosted by Jubilee</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-7.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Live like Bollywood star Janhvi Kapoor</p>
+                <p>Hosted by Janhvi Kapoor</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-8.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Open the Olympic Games at Musee d'Orsay</p>
+                <p>Hosted by Mathieu Lehanneur</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-9.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Wake up in the Musee d'Orsay</p>
+                <p>Hosted by Mathieu Lehanneur</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-10.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Make core memories with Inside Out 2</p>
+                <p>Hosted by Joy</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-11.jpeg" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Design your Incredible Supersuit</p>
+                <p>Hosted by Edna Mode</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-12.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Go on tour with Feid</p>
+                <p>Hosted by Feid</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-13.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Game with Khaby Lame</p>
+                <p>Hosted by Khaby Lame</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-14.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Crash at the X-Mansion</p>
+                <p>Hosted by Jubilee</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-15.jfif" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Spend the night in the Ferrari Museum</p>
+                <p>Hosted by Marc Gene</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-16.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Drift off in the house</p>
+                <p>Hosted by Carl Fredricksen</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-17.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Shrek's Swamp</p>
+                <p>Hosted by Donkey</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-18.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Barbies's Malibu DreamHouse,Ken's Way</p>
+                <p>Hosted by Ken</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-19.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Ted Lasso's Favorite Pub</p>
+                <p>Hosted by Mae</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-20.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Houseplant Retreat</p>
+                <p>Hosted by Seth Rogen</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-21.jpeg" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>Home Alone Holiday</p>
+                <p>Hosted by Buzz</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+            <div class="content-container">
+              <div class="image-container">
+                <img class="image" src="assets/images/image-22.webp" alt="">
+                <div class="share-button-container">
+                  <button class="share-button flex"><img src="assets/svgs/share-svg.svg" class="share-icon"></button>
+                </div>
+                <div class="image-caurosel-container flex">
+                  <div class="image-caurosels flex">
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  <button class="image-caurosel"></button>
+                  </div>
+                </div>
+              </div>
+              <div 
+              class="description-container">
+                <p>The Last Blockbuster</p>
+                <p>Hosted by Sandi</p>
+                <p>Sold out</p>
+              </div>
+            </div>
+          </section>
+        </main>
+        <!-- ---------------footer------------------------ -->
+        <footer>
+          <div class="footer-container">
+            <div class="footer-section-1">
+              <div class="footer-section-1-container">
+                
+                <div class="footer-main-heading">
+                  <h2>
+                    Inspiration for future getaways
+                  </h2>
+                </div>
+                <div class="footer-section-1-content">
+                  <div class="footer-navbar-container">
+                    <div class="footer-navbar">
+                      <div class="footer-navbar-wrapper flex">
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button ">Popular</button>
+                          </div>
+                        </div>
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button">Arts & culture</button>
+                          </div>
+                        </div>
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button">Outdoors</button>
+                          </div>
+                        </div>
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button">Mountains</button>
+                          </div>
+                        </div>
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button">Beach</button>
+                          </div>
+                        </div>
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button">Unique stays</button>
+                          </div>
+                        </div>
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button">Categories</button>
+                          </div>
+                        </div>
+                        <div class="footer-nav-item">
+                          <div class="footer-nav-button-container">
+                            <button class="footer-nav-button">Things to do</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="footer-horizontal-line"></div>
+                    <div class="border-bottom"></div>
+                    <button class="right-arrow-button flex">
+                      <!-- <img src="assets/svgs/footer-right-arrow.svg" alt=""> -->
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-label="scroll tabs forward" role="img" focusable="false" >
+                        <path fill="none" d="m12 4 11.3 11.3a1 1 0 0 1 0 1.4L12 28"></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="footer-list">
+                    <ul class="footer-list-item-container">
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Canmore</span>
+                          <span class="list-subtitle">Flat rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Benalmadena</span>
+                          <span class="list-subtitle">Beach house rentals</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Marbella</span>
+                          <span class="list-subtitle">Flat rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Mijas</span>
+                          <span class="list-subtitle">Flat rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Prescott</span>
+                          <span class="list-subtitle">Cottage rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Scottsdale</span>
+                          <span class="list-subtitle">Rentals with pools</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Tucson</span>
+                          <span class="list-subtitle">Apartment rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Jasper</span>
+                          <span class="list-subtitle">Cabin rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Mountain View</span>
+                          <span class="list-subtitle">Family-friendly rentals</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Devonport</span>
+                          <span class="list-subtitle">Cottage rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Mallacoota</span>
+                          <span class="list-subtitle">Beach house rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Ibiza</span>
+                          <span class="list-subtitle">Holiday rentals</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Anaheim</span>
+                          <span class="list-subtitle">Apartment rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Monterey</span>
+                          <span class="list-subtitle">Flat rentals</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Paso Robles</span>
+                          <span class="list-subtitle">Cottage rentals</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Santa Barbara</span>
+                          <span class="list-subtitle">Beachfront rentals</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="footer-list-item flex" href="#">
+                          <span class="list-title">Sonoma</span>
+                          <span class="list-subtitle">Cottage rentals</span>
+                        </a> 
+                      </li>
+                      <li>
+                        <button class="footer-showmore-button flex">
+                          <span>
+                            Show more
+                          </span>
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;">
+                            <path fill="none" d="M28 12 16.7 23.3a1 1 0 0 1-1.4 0L4 12" stroke="#222222" stroke-width="5.33333px">
+                            </path>
+                          </svg>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <!-- ------------------------------------ -->
+            <div class="footer-section-2">
+              <div class="footer-section-2-container">
+                <div class="footer-section-2-list">
+                  <div class="footer-section-2-heading">
+                    <h3>Support</h3>
+                  </div>
+                  <ul class="footer-section-2-list-items">
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Help Centre</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">AirCover</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Anti-discrimination</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Disability support</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Cancellation options</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Report neighbourhood concern</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-section-2-list">
+                  <div class="footer-section-2-heading">
+                    <h3>Hosting</h3>
+                  </div>
+                  <ul class="footer-section-2-list-items">
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Airbnb your home</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">AirCover for Hosts</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Hosting resources</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Community forum</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Hosting responsibly</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Join a free Hosting class</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-section-2-list">
+                  <div class="footer-section-2-heading">
+                    <h3>Airbnb</h3>
+                  </div>
+                  <ul  class="footer-section-2-list-items">
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Newsroom</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">New features</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Investors</a>
+                    </li>
+                    <li class="footer-section-2-list-item">
+                      <a href="#">Airbnb.org emergency stays</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+              <!-- -------------------------------------- -->
+                <div class="footer-section-3">
+                  <div class="footer-section-3-container">
+  
+                    <div class="footer-section-3-group-1-container">
+                      <div class="footer-section-3-group-1 flex">
+  
+                        <div class="network-icon-group flex">
+                            <button class="footer-section-3-button flex">
+                              <span class="footer-network-icon-container">
+                                <img class="footer-network-icon" src="assets/svgs/footer-network-icon.svg" alt="">
+                              </span>
+                              <span class="footer-text">English (IN)</span>
+                            </button>
+                            <button class="footer-section-3-button flex">
+                              <span class="footer-currency-text">&#x20b9;</span>
+                              <span class="footer-text">INR</span>
+                            </button>
+                        </div>
+    
+                        <div class="social-media-group">
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <img src="assets/svgs/footer-facebook-icon.svg" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <img src="assets/svgs/footer-twitter-icon.svg" alt="">
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <img src="assets/svgs/footer-instagram-icon.svg" alt="">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+    
+                      </div>
+                    </div>
+                   
+                    <div class="footer-section-3-group-2-container">
+  
+                      <div class="footer-section-3-group-2">
+  
+                        <div class="airbnb-copyright">
+                          &#169; 2024 Airbnb, Inc.
+                        </div>
+  
+                        <div class="footer-section-3-sub-group">
+                          <div class="sub-group-items">
+                            <div class="sub-group-list">
+                              <span class="sub-group-item">
+                                <span class="hidden-dot">&#183;</span>
+                              </span>
+                              <span class="sub-group-item">
+                                <a href="#">Privacy</a>
+                                <span class="dot">&#183;</span>
+                              </span>
+                              <span class="sub-group-item">
+                                <a href="#">Terms</a>
+                                <span class="dot">&#183;</span>
+                              </span>
+                              <span class="sub-group-item">
+                                <a href="#">Sitemap</a>
+                                <span class="dot">&#183;</span>
+                              </span>
+                              <span class="sub-group-item">
+                                <a href="#">Company details</a>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+  
+  
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+          </div>
+          
+        </footer>
+        <!-- --------------bottom navbar---------------- -->
+        <nav>
+          <div class="bottom-navbar-container flex">
+            <div class="items flex">
+              <button class="item flex">
+                <div class="bottom-icon-container flex">
+                  <img class="bottom-icon" src="assets/svgs/mobile-svgs/pink-zoom-icon-svg.svg" alt="">
+                </div>
+                  <span class="bottom-title">Explore</span>
+              </button>
+              <button class="item flex">
+                <div class="bottom-icon-container flex">
+                  <img class="bottom-icon" src="assets/svgs/mobile-svgs/like-icon-svg.svg" alt="">
+                </div>
+                <span class="bottom-title">Wishlists</span>
+              </button>
+              <button class="item flex">
+                <div class="bottom-icon-container flex">
+                  <img class="bottom-icon" src="assets/svgs/mobile-svgs/profile-svg.svg" alt="">
+                </div>
+                <span class="bottom-title">Log in</span>
+              </button>
+            </div>
+           </div>
+        </nav>
+  </body>
+</html>
