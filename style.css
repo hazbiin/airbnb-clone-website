@@ -707,7 +707,7 @@ li:nth-child(n+8):nth-child(-n+17){
     line-height: 0.75rem;
     font-weight: 400;
     color:#6A6A6A;
-    margin-top: 1px;
+    /* margin-top: 1px; */
 }
 .items .item:first-child .bottom-title{
     color:#E81948;
