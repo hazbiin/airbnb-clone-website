@@ -118,7 +118,7 @@ header{
 }
 /* -------------------scrolling nav bar-------------------------  */
 nav{
-    box-shadow: 0 2px 6px rgb(0 0 0 / 9%);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 9%);
     position: relative;
 }
 .horizontal-line{
@@ -621,7 +621,7 @@ li:nth-child(n+8):nth-child(-n+17){
     line-height: 20.02px;
 }
 .sub-group-items{
-    margin-top: 2px;
+    /* margin-top: 2px; */
     line-height: 26px;
     /* display: inline-block; */
 }
@@ -643,8 +643,8 @@ li:nth-child(n+8):nth-child(-n+17){
 .sub-group-list .sub-group-item a{
     outline: none;
     font-size: 0.875rem;
-    line-height: 1.125rem;
-    /* line-height: 26px; */
+    /* line-height: 1.125rem; */
+    line-height: 26px;
     font-weight: 400;
     color:rgb(34,34,34);
 }
@@ -653,8 +653,8 @@ li:nth-child(n+8):nth-child(-n+17){
     text-align: center;
     width: 19px;
     font-size: 0.875rem ;
-    line-height: 1.125rem ;
-    /* line-height: 26px; */
+    /* line-height: 1.125rem ; */
+    line-height: 26px;
 }
 
 /* -------------bottom nav bar ------------- */
@@ -707,7 +707,7 @@ li:nth-child(n+8):nth-child(-n+17){
     line-height: 0.75rem;
     font-weight: 400;
     color:#6A6A6A;
-    /* margin-top: 1px; */
+    margin-top: 1px;
 }
 .items .item:first-child .bottom-title{
     color:#E81948;
@@ -1133,7 +1133,8 @@ li:nth-child(n+8):nth-child(-n+17){
         display: block;
     }
     .footer-section-3-group-1-container{
-        margin-bottom: 16px;
+        /* margin-bottom: 16px; */
+        margin-bottom: 15px;
     }
     .footer-section-3-group-1{
         justify-content: center;
@@ -1147,6 +1148,12 @@ li:nth-child(n+8):nth-child(-n+17){
         text-align: center;
     }
 
+    .sub-group-list .sub-group-item a{
+        line-height: 20.02px;
+    }
+    .dot{
+        line-height: 20.02px;
+    }
 
     .footer-section-3-sub-group{
         line-height: 20.02px;
@@ -1254,9 +1261,16 @@ li:nth-child(n+8):nth-child(-n+17){
     }
     .airbnb-copyright{
         margin-bottom: 0px;
+        line-height: unset;
     }
     .sub-group-items{
         display: inline-block;
+        line-height: unset;
+    }
+    .sub-group-list .sub-group-item a{
+        line-height: unset;
+    }
+    .dot{
         line-height: unset;
     }
     .hidden-dot{
@@ -1264,7 +1278,8 @@ li:nth-child(n+8):nth-child(-n+17){
         text-align: center;
         width: 19px;
         font-size: 0.875rem;
-        line-height: 1.125rem;
+        /* line-height: 1.125rem; */
+        line-height: 20.02px;
     }
   
 }
