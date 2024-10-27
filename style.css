@@ -355,7 +355,8 @@ main{
 footer{
     background-color: #F7F7F7;
     /* max-width: 1440px; */
-    padding-bottom: 66px;
+    /* padding-bottom: 66px; */
+    padding-bottom: 65.5px;
     font-family:'AirbnbCereal';
 }
 .footer-container{
@@ -583,6 +584,7 @@ li:nth-child(n+8):nth-child(-n+17){
     font-weight: 500;
 }
 .footer-network-icon{
+    margin-top: 1px;
     display: block;
     height: 16px;
     width: 16px;
@@ -606,57 +608,52 @@ li:nth-child(n+8):nth-child(-n+17){
 }
 
 /* ----------------- */
-
+.footer-section-3-group-2-container{
+    font-size: 14px;
+    line-break: strict;
+    line-height: 20.02px;
+}
 .airbnb-copyright{
-    font-size: 0.875rem;
-    line-height: 1.125rem ;
-    color: rgb(34, 34, 34) ;
-    display: inline-block ;
-    margin-bottom: 2px ;
+    font-size: 0.875rem !important;
+    line-height: 1.125rem !important;
+    color: rgb(34, 34, 34) !important;
+    display: inline-block !important;
+    margin-bottom: 2px;
+}
+.sub-group-items{
+    display: inline-block;
+    line-height: 26px;
+    margin-top: 2px;
+}
+.sub-group-list{
+    display: inline;
+    line-height: 26px;
+    list-style-type: decimal;
+}
+.sub-group-item{
+    display: inline-block;
+    text-size-adjust: 100%;
+}
+.sub-group-item a{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(34,34,34);
+    position: relative;
 }
 .hidden-dot{
     display: none;
-}
-.footer-section-3-sub-group{
-    line-height: 20.02px;
-}
-.sub-group-items{
-    /* margin-top: 2px; */
-    line-height: 26px;
-    /* display: inline-block; */
-}
-.sub-group-list{
-    line-height: 26px;
-    /* display: inline; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    white-space: nowrap;
-    flex-wrap: wrap;  
-}
-.sub-group-list .sub-group-item{
-    /* display: inline-block; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-.sub-group-list .sub-group-item a{
-    outline: none;
-    font-size: 0.875rem;
-    /* line-height: 1.125rem; */
-    line-height: 26px;
-    font-weight: 400;
-    color:rgb(34,34,34);
 }
 .dot{
     display: inline-block;
     text-align: center;
     width: 19px;
     font-size: 0.875rem ;
-    /* line-height: 1.125rem ; */
-    line-height: 26px;
+    line-height: 1.125rem ;
 }
-
+.ml-3{
+    margin-left: -3px;
+}
 /* -------------bottom nav bar ------------- */
 .bottom-navbar-container{
     background-color: white;
@@ -707,7 +704,7 @@ li:nth-child(n+8):nth-child(-n+17){
     line-height: 0.75rem;
     font-weight: 400;
     color:#6A6A6A;
-    /* margin-top: 1px; */
+    margin-top: 1px;
 }
 .items .item:first-child .bottom-title{
     color:#E81948;
@@ -715,8 +712,16 @@ li:nth-child(n+8):nth-child(-n+17){
 }
 
 /* --------------Media Queries---------------- */
-
-
+@media screen and (min-width:321px){
+    .footer-network-icon{
+        margin-top: unset;
+    }
+}
+@media screen and (min-width:354px){
+    .lastlink-ml-3{
+        margin-left: -3px;
+    }
+}
 @media screen and (min-width:375px){
     .description-container{
         max-width: unset;
@@ -1133,8 +1138,8 @@ li:nth-child(n+8):nth-child(-n+17){
         display: block;
     }
     .footer-section-3-group-1-container{
-        /* margin-bottom: 16px; */
-        margin-bottom: 15px;
+        margin-bottom: 16px;
+        /* margin-bottom: 15px; */
     }
     .footer-section-3-group-1{
         justify-content: center;
@@ -1260,8 +1265,8 @@ li:nth-child(n+8):nth-child(-n+17){
         line-height: unset;
     }
     .airbnb-copyright{
-        margin-bottom: 0px;
-        line-height: unset;
+        margin-bottom: unset;
+        margin-top: 2px;
     }
     .sub-group-items{
         display: inline-block;
@@ -1354,7 +1359,6 @@ li:nth-child(n+8):nth-child(-n+17){
     .footer-section-3-container{
         grid-column: 2/3;
     }
-    
 }
 @media screen and (min-width:2520px){
     /* .header-2{
